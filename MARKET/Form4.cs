@@ -69,9 +69,13 @@ namespace MARKET
         }
         public Form4(string label, Form1 form1)
         {
+
             InitializeComponent();
+            
             this.label = guna2HtmlLabel2.Text;
-            guna2HtmlLabel2.Text = "دڵنیایت لە داخستنەوەی بەرنامەکە";
+           
+                string m= @"دڵنیایت لە داخستنەوەی بەرنامەکە";
+            guna2HtmlLabel2.Text = m;   
             mode = "exit";
 
 

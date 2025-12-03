@@ -112,7 +112,7 @@
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.AutoSize = true;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(126, 0);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(114, 13);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(66, 32);
             this.guna2HtmlLabel2.TabIndex = 0;

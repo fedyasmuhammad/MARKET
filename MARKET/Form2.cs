@@ -63,7 +63,7 @@ namespace MARKET
             
         {
            
-            label21.Text =fullname;
+            label1.Text =fullname;
             label2.Text = loginRole;
 
             if (IMAGE_PATH1 != null && IMAGE_PATH1.Length > 0)
@@ -255,6 +255,21 @@ namespace MARKET
         }
 
         private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2GradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2GradientPanel3_Paint(object sender, PaintEventArgs e)
         {
 
         }

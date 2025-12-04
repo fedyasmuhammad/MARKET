@@ -353,14 +353,14 @@ namespace MARKET
                     else
                     {
                         // If admin and more than one admin, show Form4
-                        Form4 form4 = new Form4(id, rowIndex, this); // Pass the necessary parameters
+                        Form4 form4 = new Form4(id, rowIndex,label, this); // Pass the necessary parameters
                         form4.ShowDialog();
                     }
                 }
                 else
                 {
                     // If role is user, show Form4
-                    Form4 form4 = new Form4(id, rowIndex, this); // Pass the necessary parameters
+                    Form4 form4 = new Form4(id, rowIndex,label, this); // Pass the necessary parameters
                     form4.ShowDialog();
                 }
             }

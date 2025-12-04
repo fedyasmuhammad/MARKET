@@ -34,7 +34,7 @@ namespace MARKET
 
 
 
-        public Form4(int rowID, int rowIndex, Form3 form3)
+        public Form4(int rowID, int rowIndex,string lebal, Form3 form3)
         {
             InitializeComponent();
             this.rowIndex = rowIndex;
@@ -42,7 +42,10 @@ namespace MARKET
             this.ID = rowID;
             this.role = role;
             Form1 form1;
+            this.label = guna2HtmlLabel2.Text;
+            guna2HtmlLabel2.Text = "دڵنیایت لە سـڕیـنـەوەی زانـاریـەکـە";
             mode = "delete";
+            
         }
         public Form4(string label, Form2 form2)
         {
@@ -74,8 +77,8 @@ namespace MARKET
             
             this.label = guna2HtmlLabel2.Text;
            
-                string m= @"دڵنیایت لە داخستنەوەی بەرنامەکە";
-            guna2HtmlLabel2.Text = m;   
+            guna2HtmlLabel2.Text = "دڵنیایت لە داخستنەوەی بەرنامەکە";
+            
             mode = "exit";
 
 
@@ -88,10 +91,14 @@ namespace MARKET
         {
             if (mode == "delete" )
             {
+               
 
                 form3.DeleteRow(ID, rowIndex, role);
 
                 Form6 form6 = new Form6(label, button1, img, this);
+             
+
+
                 form6.ShowDialog();
                 this.Hide();
             }
